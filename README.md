@@ -41,11 +41,9 @@ git commit -m "Update dotfiles"
 
 ## 推到远程
 
-建议使用私有仓库：
-
 ```sh
 git remote add origin git@github.com:YOUR_NAME/dotfiles.git
 git push -u origin main
 ```
 
-如果准备放公开仓库，要重新审查 `docs/inventory.md` 里标记为“需要确认”的项目，尤其是 SSH、服务器、AI 工具和编辑器插件配置。
+这个仓库可以放在 public GitHub 仓库里，但每次推送前都要先跑 `./scripts/audit-secrets.sh` 并检查 `git diff`。`docs/inventory.md` 里标记为“需要确认”或“Never track”的项目不要直接提交。
