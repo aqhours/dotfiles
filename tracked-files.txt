@@ -13,24 +13,10 @@
 # Git, prompt, terminal, editor
 .config/git/ignore
 .config/starship.toml
-.config/zellij/config.kdl
 .config/lvim/config.lua
 .config/lvim/lazy-lock.json
 
 # Visual CLI tools
-.config/cava/config
-.config/cava/shaders/bar_spectrum.frag
-.config/cava/shaders/eye_of_phi.frag
-.config/cava/shaders/northern_lights.frag
-.config/cava/shaders/orion_circle.frag
-.config/cava/shaders/orion_circle_rotate.frag
-.config/cava/shaders/orion_saturn_core.frag
-.config/cava/shaders/orion_saturn_subring.frag
-.config/cava/shaders/pass_through.vert
-.config/cava/shaders/spectrogram.frag
-.config/cava/shaders/winamp_line_style_spectrum.frag
-.config/cava/themes/solarized_dark
-.config/cava/themes/tricolor
 .config/fastfetch/config.jsonc
 .config/fastfetch/rchery.jsonc
 .config/fastfetch/pngs/chikalogo.png

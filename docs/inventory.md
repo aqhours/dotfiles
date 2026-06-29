@@ -7,7 +7,7 @@ Last checked: 2026-06-29.
 These are low-risk, mostly declarative config files and are listed in `tracked-files.txt`.
 
 - Shell and CLI: `.zshrc`, `.zprofile`, `.gitconfig`, `.tmux.conf`, `.condarc`
-- Prompt and terminal tools: `.config/starship.toml`, Zellij, Ghostty, Cava, Fastfetch, Neofetch
+- Prompt and terminal tools: `.config/starship.toml`, Ghostty, Fastfetch, Neofetch
 - Editor/tool config: LunarVim config, VS Code user settings/snippets, OpenCode config/plugin code
 - Git ignore rules: `.config/git/ignore`
 - Codex declarative config: `.codex/config.toml`, `.codex/hooks.json`, `.codex/rules/default.rules`
