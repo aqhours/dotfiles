@@ -1,0 +1,224 @@
+model_reasoning_effort = "xhigh"
+personality = "pragmatic"
+model = "gpt-5.5"
+
+
+notify = ["/Users/jiiong/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+
+[projects."/Users/jiiong"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Project/创新基金"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/课程学习/分布式系统"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-04-21-computer-use-plugin-computer-use-openai"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/课程学习/无线传感器网络"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/ComputerScience/WebDesign/hulight_feishu"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/计算机工程认证"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-19/vibe-island"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-19/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-19/icloud"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-20/files-mentioned-by-the-user-1500"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/课程学习/计算机高级体系结构"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-25/rag-3-ccf-arxiv"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-26/new-chat"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-05-28/files-mentioned-by-the-user-15"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Schedule"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-01/files-mentioned-by-the-user-nchu"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/课程学习/高级软件工程"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-01/norman-bury-research-writing-skill-https"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-01/files-mentioned-by-the-user-1"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-04/blader-humanizer-https-github-com-blader"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-09/applications-mentioned-by-the-user-appshot"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Tool/myhumanizer"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Tool/服务器迁移"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/数学建模/2606"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/数学建模/2606数学建模"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-11/files-mentioned-by-the-user-9c11769564564cdd8c0fe64747ef3957"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Codex/2026-06-23/ni-ne"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Document/课程学习/SCI科技论文写作"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Master/Paper/师兄论文修改"]
+trust_level = "trusted"
+
+[projects."/Users/jiiong/Documents/Tool/dotfiles"]
+trust_level = "trusted"
+
+[marketplaces.openai-bundled]
+last_updated = "2026-06-29T06:13:53Z"
+source_type = "local"
+source = "/Users/jiiong/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-06-24T07:41:20Z"
+source_type = "local"
+source = "/Users/jiiong/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[marketplaces.nature-skills]
+last_updated = "2026-06-23T08:00:54Z"
+source_type = "local"
+source = "/Users/jiiong/.codex/local-marketplaces/nature-skills"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."nature-skills@nature-skills"]
+enabled = true
+
+[tui]
+terminal_title = []
+
+[features]
+codex_hooks = true
+js_repl = false
+
+[hooks.state]
+
+[hooks.state."/Users/jiiong/.codex/hooks.json:permission_request:0:0"]
+trusted_hash = "sha256:f78e4f22f41b8d2a8b8fcfd2ceefa47efdae002a35e424a8a6bc576b0c02cc61"
+
+[hooks.state."/Users/jiiong/.codex/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:d88f7db6f958c5c9d543c6f923959e3a6f2cd643653d3fd5067651f54591f23e"
+
+[hooks.state."/Users/jiiong/.codex/hooks.json:stop:0:0"]
+trusted_hash = "sha256:cfdc48b9a92034a4a62f229e3a37dbb0d8b1dad3102cc3bc54baf677c10e21b3"
+
+[hooks.state."/Users/jiiong/.codex/hooks.json:user_prompt_submit:0:0"]
+trusted_hash = "sha256:56d3bb626d29dc890ebda4cbedd06de6a8a548e775d95893922e60d1afb3badc"
+
+[desktop]
+appearanceLightCodeThemeId = "codex"
+appearanceDarkCodeThemeId = "github"
+sansFontSize = 15
+codeFontSize = 14
+selected-avatar-id = "custom:daichi"
+keepRemoteControlAwakeWhilePluggedIn = true
+usePointerCursors = false
+reduced-motion-preference = "system"
+appearanceTheme = "system"
+followUpQueueMode = "steer"
+dock-icon-preference = "app-default"
+
+[desktop.appearanceLightChromeTheme]
+accent = "#0169cc"
+contrast = 45
+ink = "#0d0d0d"
+opaqueWindows = false
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#00a240"
+diffRemoved = "#e02e2a"
+skill = "#751ed9"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#1f6feb"
+contrast = 60
+ink = "#e6edf3"
+opaqueWindows = false
+surface = "#0d1117"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#3fb950"
+diffRemoved = "#f85149"
+skill = "#bc8cff"
+
+[[skills.config]]
+path = "/Users/jiiong/.agents/skills/research-paper-writer/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/jiiong/.codex/skills/shushu-novelty-finder/SKILL.md"
+enabled = false
+
+[mcp_servers.node_repl]
+args = []
+command = "/Applications/Codex.app/Contents/Resources/cua_node/bin/node_repl"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = "/Applications/Codex.app/Contents/Resources/cua_node/lib/node_modules"
+NODE_REPL_NODE_PATH = "/Applications/Codex.app/Contents/Resources/cua_node/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/Users/jiiong/.codex"
+CODEX_HOME = "/Users/jiiong/.codex"
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "a05cdd282c2717f076e11bc0e94b7b20e1fc4759dbe28440bd1c734953606a56"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.623.61825"
+CODEX_CLI_PATH = "/Applications/Codex.app/Contents/Resources/codex"

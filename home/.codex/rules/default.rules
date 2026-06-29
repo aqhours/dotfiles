@@ -1,0 +1,2 @@
+prefix_rule(pattern=["npm", "run", "dev"], decision="allow")
+prefix_rule(pattern=["npm", "run", "build"], decision="allow")

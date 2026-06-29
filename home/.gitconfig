@@ -1,0 +1,7 @@
+[user]
+	name = Jiong
+	email = aqhours@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input

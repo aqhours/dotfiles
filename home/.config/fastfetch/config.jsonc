@@ -1,0 +1,149 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    // Drop PNG files into ~/.config/fastfetch/pngs to get the repo-style image logo.
+    // If the folder is empty or the terminal doesn't support images, fastfetch falls back automatically.
+    "source": "${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/*.png",
+    "height": 16,
+    "printRemaining": false,
+    "padding": {
+      "top": 2,
+      "right": 8
+    }
+  },
+  "display": {
+    "separator": " ",
+    "key": {
+      "width": 18
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[1;31m 󰊠 \u001b[1;35m󰊠 \u001b[1;36m󰊠 \u001b[1;33m󰮯 \u001b[0;33m· · · · \u001b[1;38;5;208mTERMINAL \u001b[1;32mONLINE"
+    },
+    {
+      "type": "custom",
+      "format": "┌────────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "  󰀵  OS",
+      "keyColor": "red",
+      "format": "{name} {codename} {version-id}"
+    },
+    {
+      "type": "host",
+      "key": "  󰌢  Host",
+      "keyColor": "red",
+      "format": "{name}"
+    },
+    {
+      "type": "kernel",
+      "key": "  󰌽  Kernel",
+      "keyColor": "red",
+      "format": "{sysname} {release}"
+    },
+    {
+      "type": "packages",
+      "key": "  󰏖  Packages",
+      "keyColor": "green",
+      "format": "{brew} brew, {brew-cask} cask"
+    },
+    {
+      "type": "display",
+      "key": "  󰍹  Display",
+      "keyColor": "green",
+      "format": "{width}x{height} @ {refresh-rate}Hz"
+    },
+    {
+      "type": "theme",
+      "key": "  󰏘  Theme",
+      "keyColor": "yellow",
+      "format": "{theme1}"
+    },
+    {
+      "type": "terminal",
+      "key": "  󰆍  Terminal",
+      "keyColor": "yellow",
+      "format": "{exe-name}"
+    },
+    {
+      "type": "command",
+      "key": "  󰞷  Shell",
+      "keyColor": "yellow",
+      "text": "basename \"$SHELL\""
+    },
+    {
+      "type": "custom",
+      "format": "└────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "title",
+      "format": "  \u001b[35m󰧂  {user-name}@{host-name}"
+    },
+    {
+      "type": "custom",
+      "format": "┌────────────────────────────────────────────┐"
+    },
+    {
+      "type": "cpu",
+      "key": "  󰻠  CPU",
+      "keyColor": "blue",
+      "format": "{name} ({cores-logical} cores)"
+    },
+    {
+      "type": "gpu",
+      "key": "  󰢮  GPU",
+      "keyColor": "blue",
+      "format": "{name} ({core-count} cores)"
+    },
+    {
+      "type": "memory",
+      "key": "  󰍛  Memory",
+      "keyColor": "blue",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "  󰋊  Disk",
+      "keyColor": "magenta",
+      "folders": "/",
+      "format": "{size-used} / {size-total} ({size-percentage})"
+    },
+    {
+      "type": "battery",
+      "key": "  󰂄  Battery",
+      "keyColor": "magenta",
+      "format": "{capacity} ({status})"
+    },
+    {
+      "type": "poweradapter",
+      "key": "  󰚥  Charger",
+      "keyColor": "magenta",
+      "format": "{name}"
+    },
+    {
+      "type": "command",
+      "key": "  󰅐  System Age",
+      "keyColor": "magenta",
+      "text": "echo $((($(date +%s) - $(date -j -f '%Y-%m-%d' '2024-10-24' +%s)) / 86400)) days"
+    },
+    {
+      "type": "uptime",
+      "key": "  󰅐  Uptime",
+      "keyColor": "magenta",
+      "format": "{formatted}"
+    },
+    {
+      "type": "custom",
+      "format": "└────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}

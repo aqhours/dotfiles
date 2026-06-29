@@ -1,0 +1,162 @@
+{
+  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Vitesse Dark Soft",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  "workbench.editor.autoLockGroups": {},
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "vscode_custom_css.imports": [
+    "file:///home/melody/.vscode/custom.css"
+  ],
+  "vscode_custom_css.statusbar": true, // this is great, macOS only
+  "window.title": "${rootName}",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "grunt.autoDetect": "on",
+  "gulp.autoDetect": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  // ========== Editor ==========
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "JetBrainsMono Nerd Font, JetBrains Mono Source Han Sans, JetBrains Mono, Input Mono, Source Code Pro, 苹方-简, 微软雅黑",
+  "editor.guides.bracketPairs": "active",
+  "editor.lineNumbers": "interval",
+  "editor.renderWhitespace": "none",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 0,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.formatOnPaste": true,
+  "editor.accessibilitySupport": "on",
+  "editor.linkedEditing": true,
+  "editor.cursorBlinking": "smooth",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": false,   // 务必关闭
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 50,
+  "files.associations": {
+    ".clang-format": "cpp"
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "scm.diffDecorationsGutterWidth": 2,
+  "terminal.integrated.fontFamily": "CommitMono Nerd Font,JetBrains Mono Source Han Sans,JetBrainsMono Nerd Font, Source Code Pro,苹方-简, 微软雅黑",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.external.windowsExec": "C:\\Program Files (x86)\\PowerShell\\7",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  // "workbench.editor.limit.enabled": true,  无须对编辑器数量进行限制
+  // "workbench.editor.limit.value": 5,
+  "diffEditor.renderIndicators": false,
+  "diffEditor.renderSideBySide": false,
+  "emmet.triggerExpansionOnTab": true,
+  "search.followSymlinks": false,
+  // ========== Extension configs ==========
+  // Code Runner
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt  && $dir$fileNameWithoutExt  < E:/HelloC/in > E:/HelloCGame/out",
+    // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt  && $dir$fileNameWithoutExt  < E:/HelloServer/HelloCGame/in",
+  },
+  // I only use Prettier for manually formatting
+  "prettier.enable": true,
+  "prettier.printWidth": 200,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
+  "githubPullRequests.fileListLayout": "tree",
+  // gitlens settings
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": false
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+  "settingsSync.ignoredExtensions": [
+    "kevinrose.vsc-python-indent",
+    "ahmadawais.shades-of-purple",
+    "tabnine.tabnine-vscode",
+    "wesbos.theme-cobalt2",
+    "catppuccin.catppuccin-vsc-icons"
+  ],
+  "github.copilot.editor.enableAutoCompletions": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.dialogStyle": "custom",
+  "window.autoDetectColorScheme": true,
+  "files.autoGuessEncoding": true,
+  "liveshare.accessibility.soundsEnabled": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}

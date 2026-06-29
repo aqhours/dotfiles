@@ -1,0 +1,48 @@
+{
+  "hooks" : {
+    "PermissionRequest" : [
+      {
+        "hooks" : [
+          {
+            "command" : "'\/Users\/jiiong\/.vibe-island\/bin\/vibe-island-bridge' --source codex",
+            "timeout" : 7200,
+            "type" : "command"
+          }
+        ]
+      }
+    ],
+    "SessionStart" : [
+      {
+        "hooks" : [
+          {
+            "command" : "'\/Users\/jiiong\/.vibe-island\/bin\/vibe-island-bridge' --source codex",
+            "timeout" : 5,
+            "type" : "command"
+          }
+        ]
+      }
+    ],
+    "Stop" : [
+      {
+        "hooks" : [
+          {
+            "command" : "'\/Users\/jiiong\/.vibe-island\/bin\/vibe-island-bridge' --source codex",
+            "timeout" : 5,
+            "type" : "command"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit" : [
+      {
+        "hooks" : [
+          {
+            "command" : "'\/Users\/jiiong\/.vibe-island\/bin\/vibe-island-bridge' --source codex",
+            "timeout" : 5,
+            "type" : "command"
+          }
+        ]
+      }
+    ]
+  }
+}
